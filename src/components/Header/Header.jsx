@@ -2,9 +2,9 @@ import React from 'react'
 // import Routers from '../../routes/Router'
 const Header = () => {
   return (
-    <div>
-      Header
-    </div>
+    <header className='header'>
+      
+    </header>
   )
 }
 
