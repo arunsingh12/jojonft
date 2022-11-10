@@ -1,0 +1,69 @@
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11111111;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+}
+.nav__item a{
+    text-decoration: none;
+    color: white;
+}
+.nav__item a:hover{
+    color: white;
+
+}
+.active{
+    color: rgb(223, 3, 76) !important;
+}
+.logo h2{
+    background:linear-gradient(-45deg,white,black,blue,orange);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: black;
+}
+
+.nav__right .btn{
+    padding: 7px 20px;
+    border:1px solid purple;
+    border-radius: 50px;
+}
+.nav__right .btn:hover{
+    padding: 7px 20px;
+    border-color:1px solid rgb(27, 253, 121);
+    border-radius: 50px;
+}
+.nav__right .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    
+}
+.nav__right .btn span i{
+    color: white;
+}
+.nav__right .btn a:hover{
+   color: white; 
+   border-color: greenyellow;
+}
+.mobile__menu{
+    color: white;
+    font-size: 1.3rem;
+    display: none;
+}
+
+
