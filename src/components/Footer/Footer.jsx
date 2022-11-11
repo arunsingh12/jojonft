@@ -64,7 +64,7 @@ const Footer = () => {
     <footer className='footer'>
 <Container>
   <Row>
-    <Col lg="2" md="3" sm="6">
+    <Col lg="3" md="3" sm="6">
     <div className="logo">
             <h2 className='d-flex gap-2 align-item-center'>
               <span>
@@ -114,10 +114,10 @@ COMPANY.map((item,index)=>(
         }
       </ListGroup>
     </Col>
-    <Col lg="2" md="3" sm="6">
+    <Col lg="3" md="3" sm="6">
       <h5>NewsLetter</h5>
       <input type="text" className="newsletter"placeholder='Email' />
-      <div className="social__links d-flex gap-3 align-items-center">
+      <div className="social__links d-flex gap-4 align-items-center">
         <span><Link to="#"><i class="ri-facebook-line"></i></Link></span>
         <span><Link to="#"><i class="ri-instagram-line"></i></Link></span>
         <span><Link to="#"><i class="ri-twitter-line"></i></Link></span>
