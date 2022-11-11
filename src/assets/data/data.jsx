@@ -78,3 +78,62 @@ export const NFT__DATA=[
         currentbid:"5.26 ETH",
     },
 ]
+
+
+export const SELLER__DATA=[
+    {
+        id:"01",
+        descriptions:"this is one",
+        sellerimage:img1,
+        sellername:"monkey",
+        sellerbid:4.89,
+        fburl:img11,
+        instaurl:"",
+    },
+    {
+        id:"02",
+        descriptions:"this is one1",
+        sellerimage:img1,
+        sellername:"many",
+        sellerbid:4.89,
+        fburl:img11,
+        instaurl:"",
+    },
+    {
+        id:"03",
+        descriptions:"this is one",
+        sellerimage:img1,
+        sellername:"dev",
+        sellerbid:4.89,
+        fburl:img11,
+        instaurl:"",
+    },
+    {
+        id:"04",
+        descriptions:"this is one",
+        sellerimage:img1,
+        sellername:"shiba",
+        sellerbid:4.89,
+        fburl:img11,
+        instaurl:"",
+    },
+    {
+        id:"05",
+        descriptions:"this is one",
+        sellerimage:img1,
+        sellername:"sem",
+        sellerbid:4.89,
+        fburl:img11,
+        instaurl:"",
+    },
+    {
+        id:"06",
+        descriptions:"this is one",
+        sellerimage:img1,
+        sellername:"adi",
+        sellerbid:4.89,
+        fburl:img11,
+        instaurl:"",
+    },
+   
+]

@@ -20,6 +20,16 @@ margin-top: 50px;
     font-size: 0.9rem;
     margin-bottom: 15px;
 }
+.nft__title a{
+    color: rgb(54, 228, 62);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.nft__title a:hover{
+    color: blueviolet;
+
+}
 .pimg{
     height: 40px;
     width: 40px;
@@ -79,6 +89,9 @@ margin-top: 50px;
 .live__auction__top span a{
     text-decoration: none;
     color: white;
-    border-bottom: 1px solid blueviolet;
-    border: 2px solid blueviolet;
+    /* border-bottom: 1px solid blueviolet; */
+    /* border: 2px solid blueviolet; */
+}
+.live__auction__top span a:hover{
+    color: blueviolet;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+// import {useRef,useEffect} from 'react'
 // import Routers from '../../routes/Router'
 import { Container, } from 'reactstrap'
 
@@ -27,6 +28,23 @@ const Nav__Links = [
 
 
 const Header = () => {
+
+  // const headerRef = useRef(null)
+
+  // useEffect(()=>{
+  //   window.addEventListener('scroll',()=>{
+  //     if(document.body.scrollTop >80){
+  //       headerRef.current.classList.add('header__shrink')
+  //     }
+  //     else{
+  //       headerRef.current.classList.remove('header__shrink')
+  //     }
+  //   })
+  //   return()=>{
+  //     window.removeEventListener('scroll')
+  //   }
+  // },[])
+
   return (
     <header className='header'>
       <Container>
