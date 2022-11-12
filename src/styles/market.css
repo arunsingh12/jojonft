@@ -1,0 +1,13 @@
+.all__category__filter select,
+.all__items__filter select,
+.filter__right select{
+padding: 8px 25px;
+font-size: 0.9rem;
+color: white;
+cursor: pointer;
+border: none;
+outline: none;
+background:rgb(0, 0, 0) ;
+border-radius: 5px;
+
+}
