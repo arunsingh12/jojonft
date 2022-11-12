@@ -1,13 +1,13 @@
-import React from 'react'
+
+import React,{useState} from 'react'
 import "./Nftcard.css"
 import { Link } from 'react-router-dom'
+import Modal from '../Modal/Modal'
+
 const Nftcard = (props) => {
+const {title, id, currentbid, creator, image, creatorimg} = props.item
 
-
-
-    const {title, id, currentbid, creator, image, creatorimg} = props.item
-
-
+const [showModal,setShowModal] = useState(false)
 
   return <div className="single__nft__card">
   <div className="nft__img">
@@ -32,9 +32,11 @@ const Nftcard = (props) => {
           </div>
       </div>
       <div className='d-flex align-items-center justify-content-between'>
-          <button className="bid__btn d-flex align-items-center gap2">
+          <button className="bid__btn d-flex align-items-center gap-1" onClick={()=>setShowModal(true)}>
               <i class="ri-shopping-bag-line"></i>Place Bid
           </button>
+
+          {showModal && <Modal setShowModal={setShowModal}/>}
           <span className='history__link'>
               <Link>View History</Link>
           </span>

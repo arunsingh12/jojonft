@@ -70,9 +70,9 @@
     display: none;
 }
 
-@media only screen and (max-width:768px){
+ @media only screen and (max-width:768px){
  
-.nav__menu{
+/* .nav__menu{
     position:fixed;
     top: 0;
     left: 0;
@@ -80,16 +80,34 @@
     height:100%;
     background: linear-gradient(rgb(13, 2, 34));
     z-index: 2222222;
-}
-.nav__list{
+} */
+/* .active__menu{
+    display: block;
+} */
+
+
+
+/* .nav__list{
     position:absolute;
     top: 0;
     right: 0;
     width: 250px;
     height: 100%;
+    background: black;
+    z-index: 333333;
+    flex-direction: column;
+    padding-left: 40px;
 
-
+} */
+.mobile__menu{
+    display: block;
+}
+.btn{
+    padding:4px 25px !important;
+}
+.btn a{
+    font-size: 0.7rem !important;
 }
 
-}
+} 
 

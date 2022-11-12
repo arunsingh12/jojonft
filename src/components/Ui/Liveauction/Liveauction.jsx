@@ -55,7 +55,9 @@ const Liveauction = () => {
 
                         {
                            NFT__DATA.slice(0,4).map((item)=>(
-                           <Nftcard key={item.id} item={item}/>) 
+                           <Col lg='3' md='4' sm='6'>
+                           <Nftcard key={item.id} item={item}/>
+                           </Col>) 
                         )}
                     </Col>
                 </Row>

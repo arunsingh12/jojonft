@@ -10,9 +10,9 @@ const Trendingsection = () => {
   <section>
 <Container>
   <Row>
-    <Col lg='12'>
-    <h3 className="trending__title">Trending</h3>
-    </Col>
+    <Col lg='12'className='mb-4'>
+    <h3 className="trending__title mb-4">Trending</h3>
+    </Col >
     {
       NFT__DATA.slice(0,8).map(item=>(
         <Col lg='3' md='4' sm='6' key={item.id}>
