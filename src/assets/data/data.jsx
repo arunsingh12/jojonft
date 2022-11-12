@@ -77,6 +77,15 @@ export const NFT__DATA=[
         creatorimg:img77,
         currentbid:"5.26 ETH",
     },
+    {
+        id:"08",
+        title:"Monkey Club7",
+        descriptions:"this is one",
+        image:img7,
+        creator:"monkey",
+        creatorimg:img77,
+        currentbid:"5.26 ETH",
+    },
 ]
 
 
