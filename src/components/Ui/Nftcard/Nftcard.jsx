@@ -14,7 +14,7 @@ const [showModal,setShowModal] = useState(false)
       <img src={image} alt="" className='w-100' />
   </div>
   <div className="nft__content">
-      <h5 className='nft__title'><Link to={'/market/${id}'}>{title}</Link></h5>
+      <h5 className='nft__title'><Link to={'/market/'+id}>{title}</Link></h5>
       <div className="creator__info-wrapper d-flex gap-3">
           <div className="creator__img">
               <img src={creatorimg} alt="" className='pimg' />

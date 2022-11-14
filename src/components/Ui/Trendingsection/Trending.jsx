@@ -16,7 +16,8 @@ const Trendingsection = () => {
     {
       NFT__DATA.slice(0,8).map(item=>(
         <Col lg='3' md='4' sm='6' key={item.id}>
-          <Nftcard item={item}/></Col>
+          <Nftcard item={item}/>
+        </Col>
       ))
     }
   </Row>

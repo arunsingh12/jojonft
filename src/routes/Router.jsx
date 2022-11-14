@@ -24,7 +24,7 @@ const Router = () => {
      {/* <Route path="/nftdetails" element={<NftDetails/>} />     */}
      <Route path="/sellerprofiles" element={<SellerProfile />} />
     <Route path="/wallet" element={<Wallet />} />
-    <Route path="/market/;id" element={<NftDetails />} /> 
+    <Route path="/market/:id" element={<NftDetails />} /> 
   </Routes>
 }
 

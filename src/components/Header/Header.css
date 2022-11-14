@@ -22,6 +22,9 @@
     align-items: center;
     column-gap: 2.7rem;
 }
+.nav__list li{
+    list-style: none;
+}
 .nav__item a{
     text-decoration: none;
     color: white;
@@ -48,9 +51,10 @@
 }
 .nav__right .btn:hover{
     padding: 7px 20px;
-    border-color:1px solid rgb(27, 253, 121);
+    border:1px solid rgb(31, 248, 42);
     border-radius: 50px;
 }
+
 .nav__right .btn a{
     color: white;
     text-decoration: none;

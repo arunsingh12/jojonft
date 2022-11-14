@@ -21,7 +21,7 @@ export const NFT__DATA=[
         image:img1,
         creator:"monkey",
         creatorimg:img11,
-        currentbid:"5.26 ETH",
+        currentbid:"5.50 ETH",
     },
     {
         id:"02",
@@ -39,7 +39,7 @@ export const NFT__DATA=[
         image:img3,
         creator:"monkey",
         creatorimg:img33,
-        currentbid:"5.26 ETH",
+        currentbid:"4.26 ETH",
     },
     {
         id:"04",
@@ -48,7 +48,7 @@ export const NFT__DATA=[
         image:img4,
         creator:"monkey",
         creatorimg:img44,
-        currentbid:"5.26 ETH",
+        currentbid:"6 ETH",
     },
     {
         id:"05",
@@ -57,7 +57,7 @@ export const NFT__DATA=[
         image:img5,
         creator:"monkey",
         creatorimg:img55,
-        currentbid:"5.26 ETH",
+        currentbid:"6.20.00 ETH",
     },
     {
         id:"06",
@@ -75,7 +75,7 @@ export const NFT__DATA=[
         image:img7,
         creator:"monkey",
         creatorimg:img77,
-        currentbid:"5.26 ETH",
+        currentbid:"5.10.26 ETH",
     },
     {
         id:"08",
@@ -84,7 +84,7 @@ export const NFT__DATA=[
         image:img7,
         creator:"monkey",
         creatorimg:img77,
-        currentbid:"5.26 ETH",
+        currentbid:"6.26 ETH",
     },
 ]
 
