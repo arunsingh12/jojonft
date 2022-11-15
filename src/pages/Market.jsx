@@ -13,7 +13,7 @@ const Market = () => {
   const handleCategory = () => { }
   const handleItems = () => { }
 
-  //================SORTING DATA BY HIGH< LOW RATE==================
+  //================SORTING DATA BY HIGH LOW RATE==================
   const handleSort = (e) => {
 
     const filterValue = e.target.value
@@ -35,7 +35,7 @@ const Market = () => {
 
   return (
     <>
-      <Commonsection title={'MarketPlace'}></Commonsection>
+      <Commonsection title={'MarketPlace'} />
       <section>
         <Container>
           <Row>

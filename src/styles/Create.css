@@ -1,0 +1,23 @@
+.form__input input {
+    width: 100%;
+    padding: 7px 25px;
+    color: white;
+    font-size: 0.8rem;
+    background: transparent;
+    border: 1px solid rgba(223, 221, 221, 0.171);
+}
+.form__input{
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.form__input label{
+color: white;
+margin-bottom: 10px;
+}
+.form__input .upload__input{
+    padding: 30px 25px;
+}
+::-webkit-calender-picker-indicator{
+    filter: invert(1);
+    cursor: pointer;
+}

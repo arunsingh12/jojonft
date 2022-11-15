@@ -76,3 +76,29 @@ color: white;
 .singleNft-btn:hover i{
     color: white;
 }
+
+@media only screen and (max-width:991px){
+    .single__nft__content h2{
+        font-size: 1.3rem;
+    }
+    .single__nft__content{
+        font-size: 0.8rem;
+        line-height: 28px;
+    }
+    .nft__creator{
+        width: 100%;
+    }
+    .singleNft-btn{
+        font-size:0.7rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+.single__nft__content h2{
+    margin-top: 15px;
+
+}
+
+}
+
+
